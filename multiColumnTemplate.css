@@ -55,12 +55,12 @@
 	color: #01B2D1;
 }
 .primary_header {
-	width: 100%;
-	background-color: #52bad5;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	clear: left;
-	border-bottom: 2px solid #2C9AB7;
+    width: 100%;
+    background-color: #D56852;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    clear: left;
+    border-bottom: 2px solid #2C9AB7;
 }
 .secondary_header {
 	width: 100%;
@@ -221,6 +221,9 @@ body {
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
+header .primary_header .title {
+}
+
 
 @media (max-width: 320px) {
 .secondary_header ul li {

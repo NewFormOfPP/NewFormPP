@@ -56,18 +56,18 @@
 }
 .primary_header {
     width: 100%;
-    background-color: #D56852;
+    background-color: #DA543A;
     padding-top: 10px;
     padding-bottom: 10px;
     clear: left;
     border-bottom: 2px solid #2C9AB7;
 }
 .secondary_header {
-	width: 100%;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background-color: #B3B3B3;
-	clear: left;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #9D9D9D;
+    clear: left;
 }
 .container .secondary_header ul {
 	margin-top: 0%;
@@ -223,6 +223,9 @@ body {
 }
 header .primary_header .title {
 }
+header .primary_header .title {
+}
+
 
 
 @media (max-width: 320px) {

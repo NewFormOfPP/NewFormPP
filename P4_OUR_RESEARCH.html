@@ -60,7 +60,10 @@ function MM_swapImage() { //v3.0
     <bod>
 <h3>Interactive map</h3>
       <p>Below, you can see our interactive map. Hover over the key areas to see information on the area. &nbsp;</p>
-	  <img src="Area_Map_Res_.png" alt="" width="1280" height="551" usemap="#Map" class="placeholder" id="Map_O" onMouseOver="MM_swapImage('Map_O','','popup_works.png',1)" onMouseOut="MM_swapImgRestore()">
+	  <img src="Area_Map_Res_.png" alt="" width="1280" height="551" usemap="#Map" class="placeholder" id="Map_O">
+      <map name="Map">
+        <area shape="rect" coords="432,138,489,174" href="#" onMouseOver="MM_swapImage('Map_O','','popup_works.png',1)" onMouseOut="MM_swapImgRestore()">
+      </map>
       
 <p>Research Question:&nbsp;</p>
     </bod>

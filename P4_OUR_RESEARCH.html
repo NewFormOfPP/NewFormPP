@@ -19,7 +19,6 @@ function MM_preloadImages() { //v3.0
     var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
     if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
 }
-
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
 }
@@ -61,11 +60,10 @@ function MM_swapImage() { //v3.0
     <bod>
 <h3>Interactive map</h3>
       <p>Below, you can see our interactive map. Hover over the key areas to see information on the area. &nbsp;</p>
-	  <img src="Area_Map_Res_.png" alt="" width="1280" height="551" usemap="#Map" class="placeholder" id="Image1" onMouseOver="MM_preloadImages('popup_works.png')"/>
-        <map name="Map">
-<area shape="rect" coords="446,221,481,255" href="popup_works.png" alt="" onMouseOver="MM_swapImage('Image1','','popup_works.png',1)" onMouseOut="MM_swapImgRestore()">
-        </map>
-      
+	  <img src="Area_Map_Res_.png" alt="" width="1280" height="551" usemap="#Map" class="placeholder" id="Image1">
+      <map name="Map">
+        <area shape="rect" coords="445,228,482,265" href="#" onMouseOver="MM_swapImage('Image1','','popup_works.png',1)" onMouseOut="MM_swapImgRestore()">
+      </map>
 <p>Research Question:&nbsp;</p>
     </bod>
 

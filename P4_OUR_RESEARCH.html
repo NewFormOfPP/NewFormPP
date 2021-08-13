@@ -13,6 +13,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 <meta name="description" content="">
+<script type="text/javascript">
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+</script>
 </head>
 <body>
 <div class="container">
@@ -39,7 +44,7 @@
       <p>Below, you can see our interactive map. Hover over the key areas to see information on the area. &nbsp;</p>
 	  <img src="Area_Map_Res_.png" alt="" width="1280" height="551" usemap="#Map" class="placeholder"/>
         <map name="Map">
-<area shape="rect" coords="446,221,481,255" href="popup_works.png">
+<area shape="rect" coords="446,221,481,255" href="popup_works.png" alt="" onMouseOver="MM_popupMsg('it works')">
         </map>
       
 <p>Research Question:&nbsp;</p>

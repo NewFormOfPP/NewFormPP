@@ -270,6 +270,10 @@ ul li a {
 section .right_article .placeholder {
     padding-left: 0px;
 }
+.container section p {
+    text-align: left;
+}
+
 
 
 

@@ -489,6 +489,10 @@ section .right_article .placeholder {
 }
 
 @media (min-width: 1001px) {
+bod p #Image1 {
+    width: 100%;
+}
+
 }
 .thumbnail {
 	width: 100px;
@@ -522,4 +526,7 @@ section .right_article .placeholder {
 	opacity: 0.5;
 }
 #menu {
+}
+
+@media screen{
 }

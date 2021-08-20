@@ -493,6 +493,11 @@ bod p #Image1 {
     width: 100%;
     height: 100%;
 }
+section p #Image1 {
+    width: 100%;
+    height: 75%;
+}
+
 
 }
 .thumbnail {

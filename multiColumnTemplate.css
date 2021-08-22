@@ -62,7 +62,7 @@ bod map area {
 }
 .container .columns h4 {
 	text-align: center;
-	color: #01B2D1;
+	color: #FFFFFF;
 }
 .primary_header {
     width: 100%;
@@ -70,7 +70,7 @@ bod map area {
     padding-top: 10px;
     padding-bottom: 10px;
     clear: left;
-    border-bottom: 2px solid #2C9AB7;
+    border-bottom: 2px solid #;
 }
 header .primary_header .title {
 }
@@ -100,7 +100,7 @@ header .primary_header .title {
     margin-top: 0px;
     font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
     font-weight: normal;
-    color: #FFFFFF;
+    color: #000000;
     letter-spacing: 1px;
     margin-left: auto;
     text-align: center;
@@ -114,7 +114,7 @@ ul li a {
 }
 
 .secondary_header ul li:hover {
-    color: #717070;
+    color: #000000;
     cursor: pointer;
 }
 .left_article {
@@ -132,7 +132,7 @@ ul li a {
     padding-left: 5%;
     padding-right: 4%;
     margin-top: 5%;
-    color: #717070;
+    color: #000000;
     font-weight: 900;
     text-transform: uppercase;
     margin-right: 5px;
@@ -171,7 +171,7 @@ ul li a {
 	font-family: "Source Sans Pro";
 	list-style: none;
 	text-align: center;
-	background-color: #B3B3B3;
+	background-color: #FFFFFF;
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -183,14 +183,14 @@ ul li a {
 	font-weight: bold;
 	border-radius: 0px;
 	transition: all 0.3s linear;
-	border-left: 5px solid #717070;
+	border-left: 5px solid #000000;
 }
 .right_article ul li:hover {
-	background-color: #717070;
+	background-color: #000000;
 	cursor: pointer;
 }
 .footer {
-	background-color: #717070;
+	background-color: #FFDF64;
 }
 .title {
 	font-weight: bold;
@@ -214,7 +214,7 @@ ul li a {
     margin-top: 16px;
 }
 .left_half {
-	background-color: #52BAD5;
+	background-color: #FFFFFF;
 }
 .container .column_half.left_half h2 {
 	color: #FFFFFF;
@@ -222,7 +222,7 @@ ul li a {
 	text-align: center;
 }
 .right_half {
-	background-color: #01B2D1;
+	background-color: #FFFFFF;
 	color: #FFFFFF;
 	font-family: "Source Sans Pro";
 	text-align: center;
@@ -289,17 +289,20 @@ header .primary_header .title {
 
 }
 .container header .primary_header {
-    background-color: #F4F1A4;
+    background-color: #FFFFFF;
     color: #000000;
 }
 header .primary_header .title {
-    color: #3F7CE2;
+    color: #000000;
 }
 ul li a {
 }
 .container header #menu {
-    background-color: #FFA4A6;
+    background-color: #FFDF64;
 }
+ul li a {
+}
+
 
 
 

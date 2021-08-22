@@ -12,8 +12,32 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
 </head>
-<body>
+<body onLoad="MM_preloadImages('Resilance 11.png','Resilance 10.png','Resilance 9.png','Resilance 8.png','Resilance 7.png','Resilance 6.png','Resilance 5.png','Resilance 4.png','Resilance 3.png','Resilance 2.png','Resilance 1.png')">
 <div class="container">
   <header>
     <div class="primary_header">
@@ -36,11 +60,22 @@
     <h3>RESILIENCE</h3>
     <p>Below is our interactive resilience map, hover over the map to discover information.</p>
     <p>&nbsp;</p>
-  </section>
-<div class="row blockDisplay">
-    <div class="column_half left_half"> </div>
-    <div class="column_half right_half"> </div>
-  </div>
+</section>
+<div class="row blockDisplay"> </div>
+<img src="0Resilance.png" alt="" width="1200" height="864" usemap="#Map" id="Image1"/>
+<map name="Map">
+  <area shape="rect" coords="127,481,164,515" href="#" onMouseOver="MM_swapImage('Image1','','Resilance 11.png',1)" onMouseOut="MM_swapImgRestore()">
+  <area shape="rect" coords="345,496,382,528" href="#" onMouseOver="MM_swapImage('Image1','','Resilance 10.png',1)" onMouseOut="MM_swapImgRestore()">
+  <area shape="rect" coords="410,461,442,494" href="#" onMouseOver="MM_swapImage('Image1','','Resilance 9.png',1)" onMouseOut="MM_swapImgRestore()">
+  <area shape="rect" coords="495,458,528,487" href="#" onMouseOver="MM_swapImage('Image1','','Resilance 6.png',1)" onMouseOut="MM_swapImgRestore()">
+  <area shape="rect" coords="587,436,619,464" href="#" onMouseOver="MM_swapImage('Image1','','Resilance 2.png',1)" onMouseOut="MM_swapImgRestore()">
+  <area shape="rect" coords="609,471,640,492" href="#" onMouseOver="MM_swapImage('Image1','','Resilance 3.png',1)" onMouseOut="MM_swapImgRestore()">
+  <area shape="rect" coords="653,483,678,504" href="#" onMouseOver="MM_swapImage('Image1','','Resilance 8.png',1)" onMouseOut="MM_swapImgRestore()">
+  <area shape="rect" coords="618,497,646,519" href="#" onMouseOver="MM_swapImage('Image1','','Resilance 1.png',1)" onMouseOut="MM_swapImgRestore()">
+  <area shape="rect" coords="538,497,563,518" href="#" onMouseOver="MM_swapImage('Image1','','Resilance 7.png',1)" onMouseOut="MM_swapImgRestore()">
+  <area shape="rect" coords="504,495,529,525" href="#" onMouseOver="MM_swapImage('Image1','','Resilance 5.png',1)" onMouseOut="MM_swapImgRestore()">
+  <area shape="rect" coords="466,499,492,524" href="#" onMouseOver="MM_swapImage('Image1','','Resilance 4.png',1)" onMouseOut="MM_swapImgRestore()">
+</map>
   <div class="social">
     <p class="social_icon"><img src="Athos_Profile.jpg" width="4016" alt="" class="thumbnail"/></p>
     <p class="social_icon"><img src="L_Pic.jpg" width="2316" alt="" class="thumbnail"/></p>

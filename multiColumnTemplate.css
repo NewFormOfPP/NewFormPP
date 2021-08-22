@@ -282,6 +282,22 @@ section .right_article .placeholder {
 }
 header .primary_header .title {
 }
+header .primary_header .title {
+
+}
+header .primary_header .title {
+}
+.container header .primary_header {
+    background-color: #FAFF9A;
+    color: #000000;
+}
+header .primary_header .title {
+    color: #585858;
+}
+
+
+
+
 
 
 

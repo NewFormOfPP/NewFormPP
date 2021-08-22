@@ -12,8 +12,32 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
 </head>
-<body>
+<body onLoad="MM_preloadImages('LESSON_1_1.png','LESSON_1_2.png','LESSON_1_3.png','LESSON_1_4.png','LESSON_2_1.png','LESSON_3_1.png','LESSON_4_1.png','LESSON_4_2.png','LESSON_5_1.png','LESSON_6_1.png','LESSON_7_1.png')">
 <div class="container">
   <header>
     <div class="primary_header">
@@ -42,7 +66,20 @@
     <div class="column_half left_half"> </div>
     <div class="column_half right_half"> </div>
   </div>
-  <img src="LESSON_0.png" alt="" width="1200" height="670" usemap="#Map"/>
+  <img src="LESSON_0.png" alt="" width="1200" height="670" usemap="#Map" id="Image1"/>
+  <map name="Map">
+    <area shape="rect" coords="8,582,126,666" href="#" onMouseOver="MM_swapImage('Image1','','LESSON_1_1.png',1)" onMouseOut="MM_swapImgRestore()">
+    <area shape="rect" coords="128,583,220,668" href="#" onMouseOver="MM_swapImage('Image1','','LESSON_1_2.png',1)" onMouseOut="MM_swapImgRestore()">
+    <area shape="rect" coords="222,582,337,667" href="#" onMouseOver="MM_swapImage('Image1','','LESSON_1_3.png',1)" onMouseOut="MM_swapImgRestore()">
+    <area shape="rect" coords="341,583,396,667" href="#" onMouseOver="MM_swapImage('Image1','','LESSON_1_4.png',1)" onMouseOut="MM_swapImgRestore()">
+    <area shape="rect" coords="405,582,522,667" href="#" onMouseOver="MM_swapImage('Image1','','LESSON_2_1.png',1)" onMouseOut="MM_swapImgRestore()">
+    <area shape="rect" coords="528,580,672,667" href="#" onMouseOver="MM_swapImage('Image1','','LESSON_3_1.png',1)" onMouseOut="MM_swapImgRestore()">
+    <area shape="rect" coords="683,580,769,665" href="#" onMouseOver="MM_swapImage('Image1','','LESSON_4_1.png',1)" onMouseOut="MM_swapImgRestore()">
+    <area shape="rect" coords="777,580,864,664" href="#" onMouseOver="MM_swapImage('Image1','','LESSON_4_2.png',1)" onMouseOut="MM_swapImgRestore()">
+    <area shape="rect" coords="876,580,944,666" href="#" onMouseOver="MM_swapImage('Image1','','LESSON_5_1.png',1)" onMouseOut="MM_swapImgRestore()">
+    <area shape="rect" coords="955,581,1068,667" href="#" onMouseOver="MM_swapImage('Image1','','LESSON_6_1.png',1)" onMouseOut="MM_swapImgRestore()">
+    <area shape="rect" coords="1078,581,1195,666" href="#" onMouseOver="MM_swapImage('Image1','','LESSON_7_1.png',1)" onMouseOut="MM_swapImgRestore()">
+  </map>
   <div class="social">
     <p class="social_icon"><img src="Athos_Profile.jpg" width="4016" alt="" class="thumbnail"/></p>
     <p class="social_icon"><img src="L_Pic.jpg" width="2316" alt="" class="thumbnail"/></p>

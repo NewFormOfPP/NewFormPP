@@ -542,7 +542,7 @@ section h4 img {
 }
 .thumbnail {
 	width: 100px;
-	border-radius: 200px;
+	border-radius: 0px;
 	height: 100px;
 	margin-left: auto;
 }

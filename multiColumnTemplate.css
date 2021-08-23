@@ -205,13 +205,13 @@ ul li a {
 */
     /* [disabled]max-height: 200px;
 */
-    width: 80%;
-    padding-top: 40px;
+    width: 100%;
+    padding-top: 0px;
     /* [disabled]padding-left: 19px;
 */
     padding-bottom: 0px;
-    height: 80%;
-    margin-top: 16px;
+    height: 100%;
+    margin-top: 0px;
 }
 .left_half {
 	background-color: #FFFFFF;
@@ -542,7 +542,7 @@ section h4 img {
 }
 .thumbnail {
 	width: 100px;
-	border-radius: 0px;
+	border-radius: 200px;
 	height: 100px;
 	margin-left: auto;
 }

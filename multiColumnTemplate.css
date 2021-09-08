@@ -313,6 +313,12 @@ ul li a {
     min-width: 0vmin;
     padding-right: 0px;
 }
+.container img {
+    width: auto;
+    padding-right: 0px;
+    min-width: auto;
+}
+
 
 
 

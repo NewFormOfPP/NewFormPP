@@ -308,6 +308,12 @@ ul li a {
 .container section h3 {
     color: #000000;
 }
+.secondary_header.footer .copyright img {
+    width: auto;
+    min-width: 0vmin;
+    padding-right: 0px;
+}
+
 
 
 
